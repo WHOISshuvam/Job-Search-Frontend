@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Job Search</h1>
+    <form id="jobSearchForm" class="form-inline">
+        <input id="query" type="text" class="form-control mb-2 mr-sm-2" placeholder="Job Title">
+        <input id="location" type="text" class="form-control mb-2 mr-sm-2" placeholder="Location">
+        <button type="submit" class="btn btn-primary mb-2">Search</button>
+    </form>
+    <div id="jobResults" class="mt-4"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
